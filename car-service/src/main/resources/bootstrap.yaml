@@ -1,0 +1,20 @@
+
+
+spring:
+  application:
+    name: car-service
+  cloud:
+    config:
+      enabled: true
+      uri: http://localhost:8081
+  datasource:
+    url: jdbc:mysql://localhost/db_micro_carro?serverTimezone=America/Lima&allowPublicKeyRetrieval=false
+    username: root
+    password: 1234
+  jpa:
+    show-sql: true
+#hibernate genera SQL avanzado
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+#actualizar bd y crear entidades
+    hibernate.ddl-auto: update
+#logging.level.org.hibernate.SQL=debug
