@@ -8,7 +8,7 @@ spring:
         git:
           default-label: configServer
           uri: https://github.com/Kalek5412/microservice-feign
-          search-paths: config-data
+          search-paths: config-sata
   application:
     name: config-server
 
