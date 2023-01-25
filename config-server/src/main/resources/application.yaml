@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: eureka
+          default-label: multipleInstance
           uri: https://github.com/Kalek5412/microservice-feign
           search-paths: config-data
   application:
