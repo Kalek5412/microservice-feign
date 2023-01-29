@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git:
-          default-label: multipleInstance
+          default-label: gateway
           uri: https://github.com/Kalek5412/microservice-feign
           search-paths: config-data
   application:
